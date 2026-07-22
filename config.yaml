@@ -1,0 +1,14 @@
+# Общие настройки парсера
+delay: 1.5
+timeout: 15
+
+# Можно добавить прокси если нужно
+# proxies:
+#   - http://user:pass@proxy1:8080
+#   - http://user:pass@proxy2:8080
+
+# Селекторы для конкретных сайтов (если нужно переопределить)
+sites:
+  example.com:
+    news_item: ".article"
+    title: "h2"
